@@ -1,0 +1,23 @@
+{
+  "name": "ReactToDoList",
+  "version": "0.0.1",
+  "description": "A todo list made with React",
+  "main": "main.js",
+  "author": "Shannin Ciprich",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3",
+    "react": "^0.13.1"
+  },
+  "devDependencies": {
+    "babel": "^5.6.14",
+    "babel-core": "^5.6.15",
+    "babel-loader": "^5.3.1",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.10.1"
+  },
+  "scripts": {
+    "webpack": "webpack --config config/webpack.config.js",
+    "webpack-watch": "webpack --config config/webpack.js --watch --colors"
+  }
+}
