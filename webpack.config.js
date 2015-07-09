@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {  
-  entry: path.resolve(__dirname, '../app/components/main.js'),
+  entry: path.resolve(__dirname, '../app/main.js'),
   output: {
     path: path.resolve(__dirname, '../out/js'),
     filename: 'app.js'
