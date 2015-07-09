@@ -1,5 +1,5 @@
 import React from 'react'
-import Test from './test'
+import HelloWorld from './hello'
 
 React.render(
   <HelloWorld />
