@@ -20,7 +20,7 @@
     "webpack": "^1.10.1"
   },
   "scripts": {
-    "build": "webpack --config config/webpack.config.js",
-    "watch": "webpack --config config/webpack.js --watch --colors"
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.js --watch --colors"
   }
 }

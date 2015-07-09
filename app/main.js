@@ -1,7 +1,7 @@
-require('../stylesheets/main.scss')
+require('./stylesheets/main.scss')
 
 import React from 'react'
-import HelloWorld from './HelloWorld'
+import HelloWorld from './components/HelloWorld'
 
 React.render(
   <HelloWorld />
