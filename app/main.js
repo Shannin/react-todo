@@ -1,9 +1,9 @@
+import React from 'react'
+import ToDoList from './components/ToDoList'
+
 require('./stylesheets/main.scss')
 
-import React from 'react'
-import HelloWorld from './components/HelloWorld'
-
 React.render(
-  <HelloWorld />
+  <ToDoList />
   , document.getElementById('app')
 );
