@@ -39,7 +39,7 @@ class ToDoList extends React.Component {
 
     return (
       <div className="todo-list">
-        <ToDoListHeader title="some title"
+        <ToDoListHeader title="cool a 2"
           onCreate={this.newItem} />
         <ul className="todo-list__item-container">
           {items}
